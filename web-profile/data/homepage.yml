@@ -85,10 +85,20 @@ client_and_work:
         x: "img/works/endesa.jpg"
         _2x: "img/works/endesa@2x.jpg"
       is_even: true
+    - title: "Renfe's Public Website"
+      description: "Renewal of Renfe's public portal to AEM with a whole new design and better performance."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case"
+        URL: "https://www.renfe.com/es/es"
+      image:
+        x: "img/works/renfe.jpeg"
+        _2x: "img/works/renfe@2x.jpeg"
+      is_even: true
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
