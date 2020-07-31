@@ -2,6 +2,21 @@ baseURL = "https://jordiortegon.github.io"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
+
+[languages]
+  [languages.en]
+    title = "English"
+    weight = 1
+    [languages.en.params]
+      path  = "/en"
+      home = "HOME"
+  [languages.es]
+    title = "Español"
+    weight = 2
+    [languages.es.params]
+      path  = "/es"
+      home = "INICIO"
+
 # Plugins
 [params.plugins]
 
@@ -25,37 +40,65 @@ theme = "raditian-free-hugo-theme"
 # navigation
 [menu]
 
-  [[menu.header]]
+  [[languages.en.menu.header]]
   name = "About"
   URL = "#about"
   weight = 2
+  
+  [[languages.es.menu.header]]
+  name = "Sobre"
+  URL = "#sobre"
+  weight = 2
 
-  [[menu.header]]
+  [[languages.en.menu.header]]
   name = "Portfolio"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
-
-
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.footer]]
+  [[languages.es.menu.header]]
   name = "Portfolio"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.footer]]
+  [[languages.en.menu.header]]
   name = "Contact"
   URL = "#contact"
   weight = 4
 
+  [[languages.es.menu.header]]
+  name = "Contacto"
+  URL = "#contacto"
+  weight = 4
+
+  [[languages.en.menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[languages.es.menu.footer]]
+  name = "Sobre"
+  URL = "#sobre"
+  weight = 2
+
+  [[languages.en.menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[languages.es.menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[languages.en.menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+  [[languages.es.menu.footer]]
+  name = "Contacto"
+  URL = "#contacto"
+  weight = 4
 
 [params]
 
@@ -65,8 +108,3 @@ theme = "raditian-free-hugo-theme"
     text1 = "Jordi"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"

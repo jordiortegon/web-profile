@@ -1,0 +1,138 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hola, Soy Jordi."
+  subtitle: "Back-End Developer"
+  description: "Trabajo en <a target='_blank' href='https://www.everis.com/global/en'>everis</a> como desarrollador de AEM en Madrid. Me entusisma continuar aprendiendo y no me asusta encontrar problemas que resolver. Siempre buscando nuevos retos."
+  image:
+    x: "img/showcase/showcase.jpg"
+    _2x: "img/showcase/showcase@2x.jpg"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/jordi-ortegon-rivera"
+
+    - icon: "github"
+      URL: "https://github.com/jordiortegon"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/JordiOrtegon"
+
+# about
+about:
+  enable: true
+  title: "¿Quién soy?"
+  content: '<p class="lead">
+    Desarrollador back-end junior. Untentando encontrar mi camino en el mundo tech. Aprovecho
+    cualquier oportunidad que se presenta, tanto para mi como con la empresa que trabajo, 
+    para mejorar e ir un paso a delante hacia nuestros objetivos.
+    </p>
+    <p class="lead">
+    Mi area de trabajo actual reside en la construcción de un area de trabajo ágil con el CMS llamado 
+    Adobe Experience Manager.
+    Aunque sin mucha experiencia, me encanta aprender diferentes tecnologías y no quedarme quieto, el esfuerzo 
+    es mi mejor cualidad.
+    Actualmente estoy trabajando en entrar en el mundo del Data Science y Cloud Computing.
+    </p>'
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Centro Afuera of Madrid"
+      year: "2017-2019"
+      degree: "Desarrollo de Aplicaciones Multiplataforma, Técnico de desarrollo de software "
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Casi un año de experiencia trabajando con everis España.
+  Me encargo de solucionar problemas y desarrollar soluciones para ayudar lo máximo posible"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/jordi-ortegon-rivera"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descarga mi currículum"
+    URL: "docs/resume.docx"
+
+  items:
+    - title: "Desarrollador Back-End Junior con AEM"
+      company: "everis"
+      duration: "Sep 2019 - Now"
+
+# Client & Work
+client_and_work:
+  title: "Proyectos"
+  enable: true
+
+  works:
+    - title: "Portal Público de Endesa"
+      description: "Migración del antiguo portal con un nuevo diseño y mejora de rendimiento."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Caso"
+        URL: "https://www.endesa.com/"
+      image:
+        x: "img/works/endesa.jpg"
+        _2x: "img/works/endesa@2x.jpg"
+      is_even: true
+    - title: "Portal Público de Renfe"
+      description: "Renovación completa del antiguo portal con un nuevo diseño y mejora de rendimiento."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Caso"
+        URL: "https://www.renfe.com/es/es"
+      image:
+        x: "img/works/renfe.jpeg"
+        _2x: "img/works/renfe@2x.jpeg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "¡Hablemos!"
+  phone:
+    title: "Número de teléfono"
+    number: '<a href="tel:+34603117134">+34 603 11 71 34</a>'
+  email:
+    title: "Email"
+    email: '<a href="mailto:jordiortegon@gmail.com">jordiortegon@gmail.com</a>'
